@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    // "module": "ES6",
+    "module": "ESNext", //после того, как установили webpack на ts, поменяли на esNext, и добавили еще одно свойство - ts-node
+    "target": "ES5",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "moduleResolution": "node",
+
+    //ПОСЛЕ ТИПИЗАЦИИ WEBPACK НА TS, добавили вот эти две строки
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "composite": true
+  }
+}
